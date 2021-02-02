@@ -11,7 +11,7 @@ greaterThan(5, 15) => 15
 
 */
 
-
+greaterThan(25, 5) => 25
 
 
 
@@ -31,7 +31,7 @@ lessThan(5, 15) => 15
 */
 
 
-
+lessThan(25, 5) => 25
 
 
 
@@ -51,6 +51,9 @@ arrayPrint(['hello', true]) => 'hello'  true
 */
 
 
+var myArray = [6,7,8,9,10,11]
+arrayPrint(myArray) => 6 7 8 9 10 11
+arrayPrint(['hello', true]) => 'hello' true
 
 
 
@@ -68,7 +71,7 @@ counter(10) => 0 1 2 3 4 5 6 7 8 9 10
 */
 
 
-
+counter(8) => 0 1 2 3 4 5 6 7 8
 
 
 
@@ -87,7 +90,7 @@ isEven(55) => odd
 */
 
 
-
+isEven(8) => even
 
 
 
@@ -107,3 +110,7 @@ isEven(6) => even
 isEven(55) => odd
 
 */
+
+var numArray = 
+
+isEven(8) => even
